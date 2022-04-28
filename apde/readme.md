@@ -12,7 +12,7 @@ Below is a screenshot of the APDE app running in their previewer. Note that if t
 
 ## Using the sample app
 
-The first thing you need to do, if you haven't already, is install the APDE app on your Android device. Then, use a file explorer app to add a 'Sketchbook' folder to the root of your internal storage, if it's not already there (notice the upper-case S). Then copy the 'toflib' folder from here to the your Sketchbook folder. Then in APDE you should be able to open the app like any other sketch.
+The first thing you need to do, if you haven't already, is install the APDE app on your Android device. Then, use a file explorer app to add a 'Sketchbook' folder to the root of your internal storage, if it's not already there (notice the upper-case S). Then copy the 'toflib' folder from here to your Sketchbook folder. Then in APDE you should be able to open the app like any other sketch.
 
 You'll notice in the screenshot that there's a camera icon, which you can tap to get a depth image. Once you've got depth data the save icon should appear, which you can tap to save the raw depth and depth-confidence data to your Android device. The saved file will include some metadata, including orientation data so you can correct for camera angle later.
 
