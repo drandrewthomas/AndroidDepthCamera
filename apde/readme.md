@@ -2,6 +2,6 @@
 
 x
 
-![Screenshot of the code running in APDE](androiddepthcamera.jpg)
+![Screenshot of the code running in APDE](./apdedepthcamera.jpg)
 
 x
