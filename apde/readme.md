@@ -1,4 +1,4 @@
-# A depth camera library for APDE and Processing for Android
+# A depth camera library for APDE
 
 ## Overview
 
@@ -6,9 +6,15 @@ Here you will find the code for the Time-of-Flight (ToF) depth camera library fi
 
 ## Screenshot
 
-Below is a screenshot of the APDE app running in the previewer. Note that if the Android device you use does not have a depth camera you should still see an example loaded from file, albeit without the camera and save buttons.
+Below is a screenshot of the APDE app running in their previewer. Note that if the Android device you use does not have a depth camera you should still see an example loaded from file, albeit without the camera and save buttons.
 
 ![Screenshot of the code running in APDE](./apdedepthcamera.jpg)
+
+## Using the sample app
+
+You'll notice in the screenshot that there's a camera icon, which you can tap to get a depth image. Once you've got depth data the save icon should appear, which you can tap to save the raw depth and depth-confidence data to your Android device. The saved file will include some metadata, including orientation data so you can correct for camera angle later.
+
+The files are saved in the external storage area for the app. So if you use APDE to run the app as an application, you should be able to find the files in /Android/data/ followed by the package name you set in APDE. If you're running in the APDE previewer, you should look in /Android/data/com.callsignlabs.apde.sketchpreview/files. You'll probably want to move the files from there for accessing in other programs, using an app such as CX File Explorer.
 
 ## Credits
 
