@@ -14,7 +14,7 @@ The dcamtest.py file loads an example depth image file of some leaves. It shows 
 
 ![Screenshot of plotted 2D data in PyDroid3](./dcamtest.png)
 
-**Note:** The example depth image shows an issue you should be aware of when using Android depth cameras: The depth data on the left approaches zero on the edge, whereas in real-life there was no close object there. The depth camera can be confused by bright sunlight, which was coming from the left, and as you can see those data even show a high depth-confidence value!
+**Note:** The example depth image shows an issue you should be aware of when using Android depth cameras: the depth data on the left approaches zero at the edge, whereas in real-life there was no close object there. The depth camera can be confused by bright sunlight, which was coming from the left, and as you can see those data even show a high depth-confidence value!
 
 ## A 3D data loading and plotting example
 
