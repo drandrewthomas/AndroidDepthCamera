@@ -6,7 +6,7 @@ The library needs to be in a folder called 'depthcamera' in the same folder as y
 
 * **loader.py:** This file contains all the code needed to load all the data from a depth image file saved in the APDE Android example. It also has functions that let you access the depth and depth-confidence data, as well as all of the metadata.
 * **depthframe.py:** This file has functions that let you do things like getting the depth limits and getting horizontal or vertical slices through the depth data. It also includes a function that lets you create a point cloud using the depth data together with the camera sensor metadata.
-* **imagemaker.py:** This file allows you to make simple images of the depth and depth-confidence data. For most applications you'll probably want to write your own code to make images, but for general things like making a matplotlib plot of a depth file this is quite useful useful.
+* **imagemaker.py:** This file allows you to make simple images of the depth and depth-confidence data. For most applications you'll probably want to write your own code to make images, but for general things like making a matplotlib plot of a depth file this is quite useful and is a starting point for your own code.
 
 ## A 2D data loading and plotting example
 
