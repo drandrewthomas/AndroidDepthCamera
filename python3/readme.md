@@ -2,6 +2,12 @@
 
 Here you will find a simple Python 3 library, with examples, for loading and using depth camera data saved into files using the Android APDE code. All of it was written in Python3 using PyDroid3 on an Android device, so you can use the code on a PC or an Android tablet. You can even run it on a Chromebook, either using Python 3 in a Linux container, or using the PyDriod3 Android app.
 
+The library needs to be in a folder called 'depthcamera' in the same folder as your Python 3 code, as in this repository. That allows us to do things like 'from depthcamera import loader as ldr' when we want to use the library code. That makes life eaier for us as we can then do things like 'ldr.load_file("mydepthimage.dcam")' to load a file, and 'dep=ldr.get_depth()' to get a depth data frame. The library contains three Python files you can access that way, which are:
+
+* **loader.py:** This file contains all the code needed to load all the data from a depth image file saved in the APDE Android example. It also has functions that let you access the depth and depth-confidence data, as well as all of the metadata.
+* **depthframe.py:** This file has functions that let you do things like getting the depth limits and getting horizontal or vertical slices through the depth data. It also includes a function that lets you create a point cloud using the depth data together with the camera sensor metadata.
+* **imagemaker.py:** This file allows you to make simple images of the depth and depth-confidence data. For most applications you'll probably want to write your own code to make images, but for general things like making a matplotlib plot of a depth file this is quite useful useful.
+
 ## A 2D data loading and plotting example
 
 The dcamtest.py file loads an example depth image file of some leaves. It shows how to use the loader code to load a depth file, the depth frame code to get data, and the image maker code to create depth and depth-confidence graphics. The example uses those things to create a matplotlib plot showing the depth and depth-confidence data along with some horizontal sections through the depth data. Here's a screenshot of the example plot using PyDroid3 on my Chromebook.
