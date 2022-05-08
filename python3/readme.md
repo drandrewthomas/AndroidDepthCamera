@@ -10,7 +10,7 @@ The library needs to be in a folder called 'depthcamera' in the same folder as y
 
 ## A 2D data loading and plotting example
 
-The dcamtest.py file loads an example depth image file of some leaves. It shows how to use the loader code to load a depth file, the depth frame code to get data, and the image maker code to create depth and depth-confidence graphics. The example uses those things to create a matplotlib plot showing the depth and depth-confidence data along with some horizontal sections through the depth data. Here's a screenshot of the example plot using PyDroid3 on my Chromebook.
+The dcamtest.py file loads an example depth image file of some leaves. It shows how to use the loader code to load a depth file, the depth frame code to get data, and the image maker code to create depth and depth-confidence graphics. The example uses those things to create a matplotlib plot showing the depth and depth-confidence data along with some horizontal sections through the depth data. To use it you need to use pip to install matplotlib, numpy and pillow. Here's a screenshot of the example plot using PyDroid3 on my Chromebook.
 
 ![Screenshot of plotted 2D data in PyDroid3](./dcamtest.png)
 
