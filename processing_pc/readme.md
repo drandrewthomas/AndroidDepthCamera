@@ -2,6 +2,6 @@
 
 x
 
-![Screenshot of the code running in Processing](./depthcamerapc.jpg)
+![Screenshot of the code running in Processing on a PC](./depthcamerapc.png)
 
 
