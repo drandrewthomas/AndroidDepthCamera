@@ -18,7 +18,7 @@ The dcamtest.py file loads an example depth image file of some leaves. It shows 
 
 ## A 3D data loading and plotting example
 
-The pointcloud.py file loads the leaves depth image and converts it to a point cloud, using the metadata for the camera sensor the APDE code provided. The cloud is then plotted in 3D using matplotlib, which together with numpy is a prerequisite you need to install with pip. The code also illustrates how to create the point cloud as a trimmed version of the depth data, which allows you to ignore poor quality data around the edges and remove points too far away. Here's a screenshot of the example plot using PyDroid3 on my Chromebook.
+The pointcloud.py file loads the leaves depth image and converts it to a point cloud, using the metadata for the camera sensor the APDE code provided. The cloud is then plotted in 3D using matplotlib, which together with numpy is a prerequisite you need to install with pip. The code also illustrates how to create the point cloud as a trimmed version of the depth data, which allows you to ignore poor quality data around the edges and remove points too far away. The plotted points are coloured using the depth data, because the confidence values are mostly very high. However, the code has a comment that lets you know how to colour the points using depth-confidence data if you prefer. Here's a screenshot of the example plot using PyDroid3 on my Chromebook.
 
 ![Screenshot of plotted 2D data in PyDroid3](./pointcloud.png)
 
