@@ -1,6 +1,6 @@
 # Using Depth Camera data in Python 3 and PyDroid3
 
-Here you will find a simple Python 3 library, with examples, for loading and using depth camera data saved into files using the Android APDE code. All of it was written in Python3 using PyDroid3 on an Android device, so you can use the code on a PC or an Android tablet. You can even run it on a Chromebook, either using Python 3 in a Linux container, or using the PyDriod3 Android app.
+Here you will find a simple Python 3 library, with examples, for loading and using depth camera data saved into files using the Android APDE code. All of it was written in Python3 using PyDroid3 on an Android device, so you can use the code on a PC or Android. You can even run it on a Chromebook, either using Python 3 in a Linux container, or using the PyDriod3 Android app.
 
 The library needs to be in a folder called 'depthcamera' in the same folder as your Python 3 code, as in this repository. That allows us to do things like 'from depthcamera import loader as ldr' when we want to use the library code. That makes life eaier for us as we can then do things like 'ldr.load_file("mydepthimage.dcam")' to load a file, and 'dep=ldr.get_depth()' to get a depth data frame. The library contains three Python files you can access that way, which are:
 
