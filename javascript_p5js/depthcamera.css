@@ -60,6 +60,17 @@ p
   font-size: 170%;
 }
 
+#footer
+{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 90%;
+}
+
 #controls3d
 {
   display: block;
