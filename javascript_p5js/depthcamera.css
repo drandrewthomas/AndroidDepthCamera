@@ -1,0 +1,72 @@
+body
+{
+  background: #ffffff;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+p
+{
+  padding: 5px;
+  margin: 0;
+  border: 0;
+}
+
+#container
+{
+  display: block;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#view3d
+{
+  display: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#canvas3d
+{
+}
+
+#p5_loading
+{
+  display: none;
+}
+
+#loading
+{
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  border: 0;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#header
+{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  border: 0;
+  font-weight: bold;
+  font-size: 170%;
+}
+
+#controls3d
+{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 120%;
+}
