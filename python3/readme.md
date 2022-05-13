@@ -31,3 +31,7 @@ The pointcloud.py file loads the leaves depth image and converts it to a point c
 ![Screenshot of plotted 2D data in PyDroid3](./pointcloud.png)
 
 **Note:**  The point cloud example uses matplotlib with a very large number of 3D vertices, so may update very slowly, especially on most Android devices, if you drag to change the plot view.
+
+## Credits
+
+This project is copyright 2021-2022 Andrew Thomas and is distributed under the GPL3 license.
