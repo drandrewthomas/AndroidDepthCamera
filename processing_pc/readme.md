@@ -9,3 +9,7 @@ Here's a screenshot of the example showing a trimmed point cloud of a depth imag
 ![Screenshot of the code running in Processing on a PC](./depthcampc.png)
 
 **Note:** You can use the loader and depth cloud code on Android, and probably with little effort in P5.js too. However, the amount of memory needed is too high for use in APDE, so depthcloudpc.pde isn't really suitable for use there.
+
+## Credits
+
+This project is copyright 2021-2022 Andrew Thomas and is distributed under the GPL3 license.
