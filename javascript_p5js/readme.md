@@ -2,7 +2,7 @@
 
 The files here are a simple example of how to use depth camera files, created using the APDE code, in a web page. It includes Javascript classes for loading data (and the metadata) from an array of bytes, and for converting the depth values to a point cloud using the camera sensor metadata. It's based on P5.js, so as to make it easy to use and as an example of using the depth data in a Processing-like web environment. However, the classes are pure Javascript so you could use them without P5.js too. When you run the code you'll get a slider that allows you to explore the effects of depth-confidence and you can drag the cloud to change the view.
 
-Here's a screenshot of the point cloud in the example, which is of a Rubiks Cube imaged from above.
+Here's a screenshot of the point cloud in the example, which is of a Rubiks Cube imaged from above. [Click here to view it live on Github.io](https://drandrewthomas.github.io/AndroidDepthCamera/).
 
 ![Screenshot of a point cloud in the p5.js web page](./dcamp5js.png)
 
