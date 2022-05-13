@@ -24,4 +24,6 @@ The files are saved in the external storage area for the app. So if you use APDE
 
 ## Credits
 
+The time-of-flight code was put together using lots of sources to find out how to access the depth camera properly. That included the Android Developers web pages and, of course, Stack Overflow. However, special mention needs to go to Luke Ma whose attempts at accessing the camera in Java on a Samsung S10, which provided a lot of inspiration and hints that made this project a lot easier than it could have been ([click here to visit his Github page](https://github.com/plluke/tof)). Kudos to all of the sources of information, especially Luke!
+
 This project is copyright 2021-2022 Andrew Thomas and is distributed under the GPL3 license.
