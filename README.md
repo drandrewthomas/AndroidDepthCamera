@@ -10,7 +10,7 @@ Also, for a maker-friendly project I wanted to be able to use data saved in APDE
 
 ## Examples of Depth Camera Data
 
-Below are some examples of depth data captured using the code included here. Clockwise from top left we have a soda can, a small pine cone, a UK one pound coin and a lifebouy case fixed on a wall.
+Below are some examples of depth data captured using the code included here. Clockwise from top left we have a soda can, a small pine cone, a UK one pound coin and a lifebouy case fixed on a wall. The red areas denote pixels where the sensor returned zero depth, which basically means it failed to get a measurement. The images show a wide range of object sizes, and even the small UK coin has some surface detail if you look closely.
 
 ![Examples of Depth Camera captures](./dcamgrid.jpg)
 
