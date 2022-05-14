@@ -11,6 +11,14 @@ function preload()
 
 function setup()
 {
+  const urlParams = new URLSearchParams(window.location.search);
+  const doembed = urlParams.get('embed');
+  if(doembed==null)
+  {
+    document.getElementById("header").style.display = "block";
+    document.getElementById("extratext").style.display = "block";
+    document.getElementById("footer").style.display = "block";
+  }
   document.getElementById("loading").style.display = "none";
   document.getElementById("view3d").style.display = "block";
   var cv = createCanvas(640, 480, WEBGL);

@@ -51,7 +51,7 @@ p
 
 #header
 {
-  display: block;
+  display: none;
   text-align: center;
   padding: 5px;
   margin: 0;
@@ -62,13 +62,18 @@ p
 
 #footer
 {
-  display: block;
+  display: none;
   text-align: center;
   padding: 5px;
   margin: 0;
   border: 0;
   font-weight: normal;
   font-size: 90%;
+}
+
+#extratext
+{
+  display: none;
 }
 
 #controls3d
