@@ -20,7 +20,7 @@ Below are some examples of depth data captured using the code included here. Clo
 
 As well as the depth and depth-confidence values, the APDE code also gets metadata. Those metadata include:
 
-* Pixel size as width and height.
+* Image size as width and height (pixels).
 * Number of averages used.
 * Orientation as yaw, pitch and roll (degrees).
 * Sensor physical details as width, height and focal length ( all in mm)
