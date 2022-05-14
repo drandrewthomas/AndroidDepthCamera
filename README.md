@@ -2,6 +2,8 @@
 
 A couple of years ago I played with using an Intel Realsense camera on Android, coding to let me get the depth data into APDE and PyDroid3. That was fun, and quite successful, but it did mean having to attach the camera and a long USB cable to the phone. So I decided to buy a phone with a Time-of-Flight depth camera, to try out a more elegant and compact solution. That led to the experiments in this repository, which include APDE (like Processing for Android, but as an app on an Android device) code to capture depth data, as well as code in Processing, Python 3, Javascript and P5.js to work on the data saved in the APDE code.
 
+If you'd like to read more about this project, please also [visit my blog post about it](https://parth3d.co.uk/android-depth-camera-experiments) on [parth3d.co.uk](https://www.parth3d.co.uk).
+
 ## Background to the coding
 
 While searching for information on how to access the depth camera data stream I came across the work of Luke Ma who had written some Java code to do that on a Samsung S10 ([click here to visit his Github page](https://github.com/plluke/tof)). After some fiddling with the code to work on my Samsung S20 I had the starting point of a simple app running in AIDE on my phone. I then added many improvements that should allow the code to work with all Android phones that have a depth camera that works with Google's Camera2 API (although it has not been tested on all those devices).
