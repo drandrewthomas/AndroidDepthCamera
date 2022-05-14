@@ -23,7 +23,7 @@ As well as the depth and depth-confidence values, the APDE code also gets metada
 * Image size as width and height (pixels).
 * Number of averages used.
 * Orientation as yaw, pitch and roll (degrees).
-* Sensor physical details as width, height and focal length (all in mm)
+* Sensor physical details as width, height and focal length (all in mm).
 
 ## What's included?
 
