@@ -39,6 +39,6 @@ There are four folders here, each containing code and examples for different sys
 
 ## Credits
 
-Some code is based on the example code kindly provided by Luke Ma for which I give great thanks and kudos. [Please vist his repository](https://github.com/plluke/tof).
+Some code is based on the example code kindly provided by Luke Ma for which I give great thanks and kudos. [Please visit his repository](https://github.com/plluke/tof).
 
 This project is copyright 2021-2022 Andrew Thomas and is distributed under the GPL3 license.
