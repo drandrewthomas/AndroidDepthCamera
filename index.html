@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Test 3D</title>
   <link rel="stylesheet" href="./javascript_p5js/depthcamera.css">
   <script src="./javascript_p5js/p5.min.js"></script>
@@ -27,8 +27,10 @@
         <p>Minimum depth-confidence displayed is <span id="confvalue"></span>% (<span id="numverts"></span> points).</p>
         <div id="confslider">
         </div>
-        <p>Move the slider to adjust the minimum depth-confidence value that a point must have in order to be displayed.</p>
-        <p>To change the 3D view drag your mouse (or your finger on a touchscreen) over the pointcloud.</p>
+        <div id="extratext">
+          <p>Move the slider to adjust the minimum depth-confidence value that a point must have in order to be displayed.</p>
+          <p>To change the 3D view drag your mouse (or your finger on a touchscreen) over the pointcloud.</p>
+        </div>
   </div>
 
     <div id="footer">
