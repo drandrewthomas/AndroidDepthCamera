@@ -8,18 +8,6 @@ I then adapted the code to allow it to get single frames of data, to average dep
 
 Also, for a maker-friendly project I wanted to be able to use data saved in APDE in other programming languages. So I ported code I'd previously used with my Realsense camera, which allow loading and viewing of depth and depth-confidence data. So library files and examples are included here in Processing, Python 3 (written using PyDroid3 on my Android phone) and Javascript. The Javascript example is also based on P5.js, thereby extending the range of Processing-based options for using the data, and was written using the excellent repl.it platform.
 
-## What's included?
-
-There are four folders here, each containing code and examples for different systems and uses. They are:
-
-* **APDE code:** This is the main Android code for accessing a Camera2 depth camera. It is provided in the form of a basic camera app that can save data files for use in the other code examples. It handles things like the Android camera permissions so should be a useful base for your own code. However, note that the camera code is really a Java file, so it should also give a good starting point for Android Studio and AIDE projects.
-
-* **Processing PC code:** This code provides classes for loading data, and metadata, from a file saved in the APDE app, as well as for converting those data into pointclouds with x, y and z vertices (plus an array of indexed depth-confidence values). The classes are provided within an example sketch that loads an example file and displays a point cloud of the data. You can also use the loader class from the PC code in APDE, as a simple way to load files without worrying about all the camera permissions.
-
-* **Python 3 code:** This code provides a means of loading depth, and depth-confidence data, together with the camera metadata, plus code for making images of those data and even making point clouds. It is provided with some examples, including code to load data and view images and sections with matplotlib. Another example also uses matplotlib, but to display a point cloud in 3D. Note that the code was mostly written and tested in PyDroid3, so should be easy to use on a PC or Android device.
-
-* **Javascript code:** This is basically a simple port of the Processing PC code, with the loading and point cloud generation code changed to Javascript classes. It is provided within an example web-page that displays a point cloud, coloured using the depth-confidence values, that you can rotate by dragging over it. It also allows you to change the minimum depth-confidence value to explore how that relates to the quality of depth data. [Click here to view it live on Github.io](https://drandrewthomas.github.io/AndroidDepthCamera/).
-
 ## Examples of Depth Camera Data
 
 Below are some examples of depth data captured using the code included here. Clockwise from top left we have a soda can, a small pine cone, a UK one pound coin and a lifebouy case fixed on a wall.
@@ -34,6 +22,18 @@ As well as the depth and depth-confidence values, the APDE code also gets metada
 * Number of averages used.
 * Orientation as yaw, pitch and roll (degrees).
 * Sensor physical details as width, height and focal length ( all in mm)
+
+## What's included?
+
+There are four folders here, each containing code and examples for different systems and uses. They are:
+
+* **APDE code:** This is the main Android code for accessing a Camera2 depth camera. It is provided in the form of a basic camera app that can save data files for use in the other code examples. It handles things like the Android camera permissions so should be a useful base for your own code. However, note that the camera code is really a Java file, so it should also give a good starting point for Android Studio and AIDE projects.
+
+* **Processing PC code:** This code provides classes for loading data, and metadata, from a file saved in the APDE app, as well as for converting those data into pointclouds with x, y and z vertices (plus an array of indexed depth-confidence values). The classes are provided within an example sketch that loads an example file and displays a point cloud of the data. You can also use the loader class from the PC code in APDE, as a simple way to load files without worrying about all the camera permissions.
+
+* **Python 3 code:** This code provides a means of loading depth, and depth-confidence data, together with the camera metadata, plus code for making images of those data and even making point clouds. It is provided with some examples, including code to load data and view images and sections with matplotlib. Another example also uses matplotlib, but to display a point cloud in 3D. Note that the code was mostly written and tested in PyDroid3, so should be easy to use on a PC or Android device.
+
+* **Javascript code:** This is basically a simple port of the Processing PC code, with the loading and point cloud generation code changed to Javascript classes. It is provided within an example web-page that displays a point cloud, coloured using the depth-confidence values, that you can rotate by dragging over it. It also allows you to change the minimum depth-confidence value to explore how that relates to the quality of depth data. [Click here to view it live on Github.io](https://drandrewthomas.github.io/AndroidDepthCamera/).
 
 ## Credits
 
