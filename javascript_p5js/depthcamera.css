@@ -1,6 +1,7 @@
 body
 {
-  background: #ffffff;
+  background: #000000;
+  color: #ffffff;
   margin: 0;
   border: 0;
   padding: 0;
@@ -11,6 +12,23 @@ p
   padding: 5px;
   margin: 0;
   border: 0;
+}
+
+a:link
+{
+  color: #ffff00;
+}
+
+/* visited link */
+a:visited
+{
+  color: #ffff00;
+}
+
+/* mouse over link */
+a:hover
+{
+  color: #ffff00;
 }
 
 #container
